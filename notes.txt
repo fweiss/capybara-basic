@@ -1,0 +1,30 @@
+precise has 1.9.3 but only for vagrant user, root has 1.8.7
+
+on Windows, to access the vm:
+putty -l vagrant -P <port> -i <insecure_private_key> localhost
+
+new deal with bundler
+in vagrant
+phantomjs    (via chef)
+sudo apt-get install fontconfig
+gem update --no-ri --no-rdoc
+gem install bundler
+cd /vagrant
+bundle install (Gemfile)
+
+and then
+bundle exec cucumber
+
+
+https://blog.codecentric.de/en/2013/08/cucumber-capybara-poltergeist/
+
+http://shashikantjagtap.net/cucumber-capybara-poltergeist-rockstar-bdd-combo/
+
+doc strings - """
+
+capybara cheat sheet
+https://gist.github.com/zhengjia/428105
+
+[warning] diff! will be deprecated
+how to fix or suppress?
+
